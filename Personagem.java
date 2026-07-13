@@ -18,8 +18,8 @@ public class Personagem {
     }
     
     /*
-    Metodo de classe que exibe as informações do personagem. Saída :
-    
+    Metodo de classe que exibe o status do personagem. Saída :
+    --- status do personagem ---
     Nome : ...
     Clase : ...
     Nivel : ...
@@ -28,6 +28,6 @@ public class Personagem {
     
     */
     public void exibirStatus(){
-        System.out.printf("\nNome : %s\nClasse : %s\nNível : %d\nPontos de vida : %d\nPoder base : %f\n",nome,classe,nivel,pontosDeVida,poderBase);
+        System.out.printf("\n--- status do personagem ---\nNome : %s\nClasse : %s\nNível : %d\nPontos de vida : %d\nPoder base : %f\n",nome,classe,nivel,pontosDeVida,poderBase);
     }
 }
