@@ -5,11 +5,11 @@ import entidades.Personagem;
 public class Mago extends Personagem{
     // atributo de classe 
     double inteligencia;
+    String classe = "Mago";
 
     // classe contrutora
     public Mago(String nome, int nivel, int pontosDeVida, double poderBase, double inteligencia, String habilidade){
         super(nome,nivel,pontosDeVida,poderBase,habilidade);
-        this.classe = "Mago";
         this.inteligencia = inteligencia;
         this.habilidade = habilidade;
     };

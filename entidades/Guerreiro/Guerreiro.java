@@ -4,12 +4,12 @@ import entidades.Personagem;
 public class Guerreiro extends Personagem {
     // definição do atributo de classe "força"
     int forca;
-
+    String classe = "Guerreiro";
     // criação da classe construtora de Guerreiro.
     public Guerreiro(String nome, int nivel, int pontosDeVida, double poderBase, int forca, String habilidade){
         super(nome,nivel,pontosDeVida,poderBase,habilidade);// Herda os atributos da classe pai
         this.forca = forca;
-        this.classe = "Guerreiro";
+        
 
     }
 

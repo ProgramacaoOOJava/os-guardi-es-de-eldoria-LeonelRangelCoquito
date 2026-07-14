@@ -4,7 +4,6 @@ public abstract class  Personagem {
 
     // Criação das variaveis de classe
     protected String nome;
-    protected String classe;
     protected int nivel;
     protected int pontosDeVida;
     protected double poderBase;
