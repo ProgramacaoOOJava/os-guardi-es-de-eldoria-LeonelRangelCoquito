@@ -12,7 +12,7 @@ public class Guerreiro extends Personagem {
         
 
     }
-
+    @Override
     public void exibirStatus(){
         super.exibirStatus();
         System.out.println("Nome: "+nome);

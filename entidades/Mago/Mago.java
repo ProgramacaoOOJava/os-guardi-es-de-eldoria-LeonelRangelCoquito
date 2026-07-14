@@ -14,6 +14,7 @@ public class Mago extends Personagem{
         this.habilidade = habilidade;
     };
     // Definição do metodo exibirStatus()
+    @Override
     public void exibirStatus(){
         super.exibirStatus();
         System.out.println("Nome: "+nome);
